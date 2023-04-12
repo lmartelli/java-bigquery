@@ -195,7 +195,7 @@ public class FieldValue implements Serializable {
   }
 
   /**
-   * Returns this field's value as a {@code String}, representing a timestamp as an Instant. This
+   * Returns this field's value as a {@link java.time.Instant}. This
    * method should only be used if the corresponding field has {@link LegacySQLTypeName#TIMESTAMP}
    * type.
    *
